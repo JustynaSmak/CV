@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(163, 189, 140);
+    font-family: 'Nunito Sans',serif;
+    }
+.header{
+    padding-top: 3em;
+}
+
+.tabs {
+    position: relative;
+    display: block;
+    margin-top: 3em;
+    margin-bottom: -1.8em;
+    margin-top: 2em;
+    padding: 3px 0;
+    margin-left: -0.1em;
+    font: bold 16px serif;
+    text-decoration: none;
+    border-bottom: 1px;
+    list-style-type: none;
+    text-align: left;
+    }
+
+.tab1 {
+    text-decoration: none;
+    padding: 3px 7px;
+    /* margin-right: 3px; */
+    /* border: 1px solid rgb(78, 76, 76); */
+    border: none;
+    background-color: rgb(226, 221, 221);
+    height: 3em;
+    }
+.tab2 {
+    text-decoration: none;
+    padding: 3px 7px;
+    /* margin-right: 3px; */
+    /* border: 1px solid rgb(187, 185, 185); */
+    border: none;
+    background-color: rgb(187, 185, 185);
+    height: 3em;
+    }
+
+.tab3 {
+    text-decoration: none;
+    padding: 3px 7px;
+    /* margin-right: 3px; */
+    /* border: 1px solid rgb(114, 111, 111); */
+    border: none;
+    background-color: rgb(151, 149, 149);
+    height: 3em;
+        }  
+
+.tab4 {
+    text-decoration: none;
+    padding: 3px 7px;
+    /* margin-right: 3px; */
+    /* border: 1px solid rgb(78, 76, 76); */
+    border: none;
+    background-color: gray;
+    height: 3em;
+     }  
+
+.tabcontainer1 {
+    background-color: rgb(226, 221, 221);
+    text-indent: 2em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    font: 18px serif;
+    padding-bottom: 3em;
+    padding-top: 4em;
+}
+
+.tabcontainer2 {
+    background-color: rgb(187, 185, 185);
+    text-indent: 2em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    font: 18px serif;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-top: 4em;
+}
+
+.tabcontainer3 {
+    background-color: rgb(151, 149, 149);
+    text-indent: 2em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    font: 18px serif;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-top: 4em;
+}
+
+.tabcontainer4 {
+    background-color: grey;
+    text-indent: 2em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    font: 18px serif;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-top: 4em;
+}
+
+spacer {
+    width: 12px;
+    display: block;
+    margin:0 auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font: bold 18px serif;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+    font: bold 18px serif;
+  }
+  
+a:hover {
+    text-decoration: underline;
+    color: black;
+    font: bold 18px serif;
+  }
+  
+a:active {
+    text-decoration: none;
+    color: black;
+    font: bold 18px serif;
+  }
+
+.signature{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-style: oblique;
+    text-shadow: 10em;
+}
